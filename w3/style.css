@@ -1,14 +1,15 @@
 html {
             font-size: 24px;
+            font-variant: small-caps;
         }
         body {
-            background-color: #7e5757;
+            background-color: #899a74;
             color: rgb(1, 0, 0);
 
         }
         
         a {
-            color: rgb(153, 168, 182);
+            color: rgb(109, 139, 168);
 
         }
         a:visited {
@@ -16,4 +17,13 @@ html {
         }
         a:hover, a:active {
             color: #de7979;
+        }
+
+        img {
+            border: 10px;
+            border-width: 10px;
+            border-color: aqua;
+            border-radius: 10px;
+            box-shadow: 10px;
+            margin: 10px;
         }
