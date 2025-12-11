@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact — NS Express INC</title>
+</head>
+<body>
+  <header class="topbar">
+    <img src="img/logo.png" alt="NS Express logo" class="logo-small">
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+      <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="fleet.html">Fleet</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="site.html">Site Page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="boxed">
+      <h1>Contact Us</h1>
+      <p>Hi — I’m the site creator. I built this NS Express INC demo to demonstrate a clean, accessible trucking company site for my CIT85 final. Use the form below to send a message or request a quote.</p>
+
+      <form action="https://httpbin.org/post" method="post" class="contact-form" novalidate>
+        <fieldset>
+          <legend>Send us a message</legend>
+
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required placeholder="Jane Doe">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+          <label for="service">Service Interested In</label>
+          <select id="service" name="service" required>
+            <option value="">-- choose a service --</option>
+            <option value="dryvan">Dry-Van</option>
+            <option value="expedited">Expedited</option>
+            <option value="dedicated">Dedicated</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Tell us about your shipment"></textarea>
+
+          <p><button type="submit" class="btn">Send Message</button></p>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NS Express INC | <a href="site.html">Site Page</a></p>
+  </footer>
+</body>
+</html>
